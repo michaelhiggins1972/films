@@ -1,0 +1,161 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+
+body {
+
+ display: flex;
+        justify-content: center;
+        align-items: center;
+       
+	background: #000;
+	font-family: 'Poppins', sans-serif;
+}
+
+.wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+ transform: translateY(10%);
+}
+
+
+.box {
+	margin: 10px;
+	width: 200px;
+	height: 350px;
+	text-align: center;
+	border-radius: 10px;
+	-webkit-transition: 200ms ease-in-out;
+	-o-transition: 200ms ease-in-out;
+	transition: 200ms ease-in-out;
+	-webkit-box-shadow: 0 0 15px rgba(255,255,255.1);
+	        box-shadow: 0 0 15px rgba(255,255,255.1);
+}
+.box:hover {
+	margin-bottom: -10px;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+.box h1 {
+	color: #fff;
+	padding: 30px;
+	margin-top: 100px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 25px;
+	background: rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+
+
+
+.one {
+	background: url('https://image.tmdb.org/t/p/original/yjhpAk25aSBf6vhgfCcgEEC9JI4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.two {
+	background: url('https://image.tmdb.org/t/p/original/foSxPGlpGhdLyROSqcFND5RB42a.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.three {
+	background: url('https://image.tmdb.org/t/p/original/iFJODzPX14aKPLhpq7tRSiiymXI.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.five {
+	background: url('https://image.tmdb.org/t/p/original/7EMCqLCppqTABe6OtAazcskwCWe.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.six {
+	background: url('https://image.tmdb.org/t/p/original/7e6wbqMxfC5csompY4h6teOBZ4t.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.seven {
+	background: url('https://image.tmdb.org/t/p/original/rjIUb4AAXassEhltBxysIjpFJQD.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.eight {
+	background: url('https://image.tmdb.org/t/p/original/u5hLebzUOBGbnPikIyxI1159lhc.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.nine {
+	background: url('https://image.tmdb.org/t/p/original/.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.ftn {
+	background: url('https://source.unsplash.com/2000x777');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.fith {
+	background: url('https://source.unsplash.com/2000x1000');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.sith {
+	background: url('https://source.unsplash.com/3000x1000');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.sevth {
+	background: url('https://source.unsplash.com/9000x9000');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+@media only screen and (max-width: 800px) {
+	.box {
+		width: 100px;
+		height: 150px;
+	}
+		.box h1 {
+			color: #fff;
+			padding: 12px;
+			margin-top: 50px;
+			text-align: center;
+			font-weight: 100;
+			font-size: 12px;
+			
+		}
+
+}
